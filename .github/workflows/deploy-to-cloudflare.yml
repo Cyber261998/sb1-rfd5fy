@@ -19,5 +19,5 @@ jobs:
     - name: Publish to Cloudflare
       run: wrangler publish
       env:
-        CF_API_TOKEN: LqpoTFudgh_h1HPYXf8fL1b3hBYQyRvA0f6qYjEw
-        CF_ACCOUNT_ID: c5ace246d3c51f25815db8a20bf8176c
+        CF_API_TOKEN: ${{ secrets.LqpoTFudgh_h1HPYXf8fL1b3hBYQyRvA0f6qYjEw }}
+        CF_ACCOUNT_ID: ${{ secrets.c5ace246d3c51f25815db8a20bf8176c }
