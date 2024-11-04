@@ -1,0 +1,8 @@
+name = "project-name"
+type = "javascript"
+account_id = "c5ace246d3c51f25815db8a20bf8176c"
+workers_dev = true
+compatibility_date = "2023-11-04"
+
+[vars]
+CLOUDFLARE_API_TOKEN = "LqpoTFudgh_h1HPYXf8fL1b3hBYQyRvA0f6qYjEw"
